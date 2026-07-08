@@ -1,0 +1,21 @@
+employee_id,name,department,salary,hire_date,status
+1001,Alice Johnson,Sales,50000,2022-01-15,Active
+1002,Bob Smith,IT,65000,2021-06-20,Active
+1003,Charlie Brown,HR,55000,2020-03-10,Active
+1004,David Wilson,Sales,52000,2022-07-01,Active
+1005,Eve Martinez,IT,68000,2019-11-05,Active
+1006,Frank Garcia,Finance,58000,2021-02-14,Active
+1007,Grace Lee,Operations,48000,2023-01-20,Active
+1008,Henry Taylor,Sales,51000,2022-09-12,Inactive
+1009,Iris Anderson,IT,66000,2020-08-30,Active
+1010,Jack Thomas,HR,56000,2021-05-25,Active
+1011,Karen White,Finance,60000,2020-12-01,Active
+1012,Leo Harris,Operations,49000,2023-03-15,Active
+1013,Mia Clark,Sales,53000,2022-04-08,Active
+1014,Noah Lewis,IT,67000,2021-10-12,Active
+1015,Olivia Walker,HR,57000,2022-02-28,Active
+1016,Paul Young,Finance,59000,2021-09-17,Active
+1017,Quinn King,Operations,50000,2023-06-01,Active
+1018,Rachel Scott,Sales,54000,2022-11-03,Active
+1019,Sam Green,IT,69000,2020-05-22,Active
+1020,Tina Adams,HR,58000,2021-12-10,Active
