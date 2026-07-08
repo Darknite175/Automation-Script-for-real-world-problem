@@ -1,0 +1,54 @@
+# Email Configuration
+email:
+  enabled: true
+  sender: "your-email@gmail.com"
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  password: "${EMAIL_PASSWORD}"  # Use environment variable for security
+  use_tls: true
+
+# Email Recipients
+recipients:
+  - "stakeholder1@company.com"
+  - "stakeholder2@company.com"
+  - "manager@company.com"
+
+# Data Source Configuration
+data_source:
+  path: "./data/source.csv"
+  encoding: "utf-8"
+  has_header: true
+
+# Report Generation Settings
+report:
+  output_dir: "./reports"
+  format: "csv"
+  include_summary: true
+  include_timestamp: true
+  date_format: "%Y-%m-%d"
+  categories:
+    - sales
+    - inventory
+    - performance
+
+# Logging Configuration
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  file: "./logs/automation.log"
+  max_file_size: 10485760  # 10MB
+  backup_count: 5
+  console_output: true
+
+# Processing Settings
+processing:
+  chunk_size: 1000
+  timeout_seconds: 300
+  retry_attempts: 3
+  retry_delay_seconds: 5
+
+# Notification Settings
+notifications:
+  email_on_success: true
+  email_on_error: true
+  include_report_attachment: true
+  include_summary_stats: true
